@@ -6,10 +6,10 @@ let img;
 let mon;
 let rickRoll;
 function preload() {
-  img = loadImage('/././heart1.png');
-  mon = loadImage('/././teethy3.png');
-  teethBG = loadImage('/././0-bg.jpeg');
-  rickRoll = loadSound('/././rick.mp3');
+  img = loadImage('heart1.png');
+  mon = loadImage('teethy3.png');
+  teethBG = loadImage('0-bg.jpeg');
+  rickRoll = loadSound('rick.mp3');
 }
 
 
