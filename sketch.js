@@ -15,8 +15,8 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  rickRoll.play();
-  rickRoll.loop();
+  // rickRoll.play();
+  // rickRoll.loop();
 }
 
 function draw() {
