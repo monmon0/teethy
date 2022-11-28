@@ -4,7 +4,7 @@ const particles = [];
 // TODO: FIX README
 let img;
 let mon;
-let rickRoll;
+let teethBG;
 function preload() {
   img = loadImage('heart1.png');
   mon = loadImage('teethy3.png');
@@ -14,8 +14,6 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  // rickRoll.play();
-  // rickRoll.loop();
 }
 
 function draw() {
@@ -111,11 +109,3 @@ class Particle {
 }
 }
 
-// function mousePressed() {
-//   if(!rickRoll.isPlaying){
-//     rickRoll.play();
-//   }
-//   else{
-//     rickRoll.pause();
-//   }
-// }
